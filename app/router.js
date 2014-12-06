@@ -6,6 +6,10 @@ var Router = Ember.Router.extend({
 });
 
 Router.map(function() {
+  this.route("news");
+  this.route("show");
+  this.route("ask");
+  this.route("jobs");
 });
 
 export default Router;
